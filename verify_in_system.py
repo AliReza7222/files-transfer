@@ -8,7 +8,7 @@ import re
 
 # distination and script file
 list_d_s = sys.argv
-"----------------------------"
+"-----------------------------"
 dict_file = dict()
 file_s = list(os.walk(list_d_s[1]))
 format_photos = ['.jpg', '.jpeg', '.png']
