@@ -1,5 +1,5 @@
 # files-transfer
-This file is my first mini project 😉 .
+This file is my first code 😉 .
 
 Because of this, it may seem cluttered.
 
