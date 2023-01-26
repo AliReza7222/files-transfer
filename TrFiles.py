@@ -67,7 +67,7 @@ def transfer_files(path, list_files):
 create_new_directory("File_Transfer", path=destination_transfer)
 
 for item in list(os.walk(address_files)):
-    threading.Thread(target=transfer_files(item[0], item[-1])).start()
+    threading.Thread(target=transfer_files, args=(item[0], item[-1])).start()
 
 for year_file, list_formats in formats_files_year.items():
     create_new_directory(year_file, f'{destination_transfer}\\File_Transfer')
